@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2 class="heading">Typing Speed Test</h2>
+      <input type="text" class="input-field" />
+      <div class="content-box">
+        <div class="typing-text">
+            <!-- Randomly get the paragraph content-->
+          <p></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="mistakes">
+              <p>Mistakes</p>
+              <span>0</span>
+            </li>
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <button>Try Again</button>
+        </div>
+      </div>
+    </div>
+    <audio id="sound" src="mixkit-single-key-press-in-a-laptop-2541.wav"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
